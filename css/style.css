@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(202, 0, 51);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#logox{
+    font-size: 25px;
+    margin: 20px 0 20px 30px;
+}
+
+.links {
+    display: none;
+}
+
+.links > .child {
+    padding: 4px 0;
+}
+
+.links>.child>i {
+    font-size: 8px;
+    background-color: #eee;
+    margin: 0 15px 0 25px;
+}
+
+.links > .child > a:hover {
+    text-decoration: underline;
+}
+
+
+.icon > i {
+    font-size: 30px;
+    background-color: #ccc;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin: 5px;
+    /* left: 100%; */
+}
