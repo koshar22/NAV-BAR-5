@@ -7,6 +7,7 @@ nav {
     background-color: rgb(202, 0, 51);
     display: flex;
     justify-content: space-between;
+    height: 70px;
 }
 
 nav a {
@@ -17,10 +18,19 @@ nav a {
 #logox{
     font-size: 25px;
     margin: 20px 0 20px 30px;
+    display: none;
+    /* transition: .4s ease-in-out; */
 }
 
 .links {
-    display: none;
+    /* display: none; */
+    position: absolute;
+    background-color: rgb(202, 0, 51);
+    width: 100%;
+    /* top: 70px; */
+    transition: .4s ease-in-out;
+    top: -100%;
+    z-index: -1;
 }
 
 .links > .child {
@@ -37,6 +47,9 @@ nav a {
     text-decoration: underline;
 }
 
+/* .icon {
+    transition: 4s ease-in-out;
+} */
 
 .icon > i {
     font-size: 30px;
